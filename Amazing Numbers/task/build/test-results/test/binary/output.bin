@@ -1,0 +1,1523 @@
+[1;31m
+Start test 1[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 2[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > -95
+
+9The first parameter should be a natural number or zero.
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 3[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > -35
+
+9The first parameter should be a natural number or zero.
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 4[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > -114
+
+9The first parameter should be a natural number or zero.
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 5[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > -93
+
+9The first parameter should be a natural number or zero.
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 6[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > -34
+
+9The first parameter should be a natural number or zero.
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 7[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 10563 -8342
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 8[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 8416 -24471
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 9[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+ Enter a request: > 16649 -13766
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 10[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 2624 -6177
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 11[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 16553 -9658
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 12[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 208 -20631
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 13[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 12509 -7944
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 14[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+ Enter a request: > 11278 -15715
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 15[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 1877 -22971
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 16[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 9378 -16782
+
+1The second parameter should be a natural number.
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 17[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 1
+
+Properties of 1
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: false
+         odd: true
+
+Enter a request: > 2
+
+Properties of 2
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: true
+         odd: false
+
+Enter a request: > 3
+
+Properties of 3
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: false
+         odd: true
+
+Enter a request: > 4
+
+Properties of 4
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: true
+         odd: false
+
+Enter a request: > 5
+
+Properties of 5
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: false
+         odd: true
+
+Enter a request: > 6
+
+Properties of 6
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: true
+         odd: false
+
+Enter a request: > 7
+
+Properties of 7
+        buzz: true
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: false
+         odd: true
+
+Enter a request: > 8
+
+Properties of 8
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: true
+         odd: false
+
+Enter a request: > 9
+
+Properties of 9
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: true
+        even: false
+         odd: true
+
+Enter a request: > 10
+
+Properties of 10
+        buzz: false
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+Enter a request: > 11
+
+Properties of 11
+        buzz: false
+        duck: false
+ palindromic: true
+      gapful: false
+         spy: false
+        even: false
+         odd: true
+
+Enter a request: > 12
+
+Properties of 12
+        buzz: false
+        duck: false
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+Enter a request: > 13
+
+Properties of 13
+        buzz: false
+        duck: false
+ palindromic: false
+      gapful: false
+         spy: false
+        even: false
+         odd: true
+
+Enter a request: > 14
+
+Properties of 14
+        buzz: true
+        duck: false
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+'Enter a request: > 7648154425980885218
+
+"Properties of 7648154425980885218
+        buzz: false
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+'Enter a request: > 2809886165233102571
+
+"Properties of 2809886165233102571
+        buzz: true
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: false
+         odd: true
+
+'Enter a request: > 5121058890577841038
+
+"Properties of 5121058890577841038
+        buzz: false
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+'Enter a request: > 3300343588086850822
+
+"Properties of 3300343588086850822
+        buzz: false
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+'Enter a request: > 8957404905433452588
+
+"Properties of 8957404905433452588
+        buzz: false
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+'Enter a request: > 2300183266405563107
+
+"Properties of 2300183266405563107
+        buzz: true
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: false
+         odd: true
+
+'Enter a request: > 2993627343509954903
+
+"Properties of 2993627343509954903
+        buzz: false
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: false
+         odd: true
+
+'Enter a request: > 4093675793488710342
+
+"Properties of 4093675793488710342
+        buzz: false
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+&Enter a request: > 467602441824524510
+
+!Properties of 467602441824524510
+        buzz: true
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+'Enter a request: > 3082031536669503422
+
+"Properties of 3082031536669503422
+        buzz: false
+        duck: true
+ palindromic: false
+      gapful: false
+         spy: false
+        even: true
+         odd: false
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 18[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 1 15
+
++              	1 is palindromic, spy, odd
+,              	2 is palindromic, spy, even
++              	3 is palindromic, spy, odd
+,              	4 is palindromic, spy, even
++              	5 is palindromic, spy, odd
+,              	6 is palindromic, spy, even
+1              	7 is buzz, palindromic, spy, odd
+,              	8 is palindromic, spy, even
++              	9 is palindromic, spy, odd
+!              	10 is duck, even
+'              	11 is palindromic, odd
+              	12 is even
+              	13 is odd
+!              	14 is buzz, even
+              	15 is odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 19[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+*Enter a request: > 1836359051200768857 19
+
+7              	1836359051200768857 is buzz, duck, odd
+2              	1836359051200768858 is duck, even
+1              	1836359051200768859 is duck, odd
+:              	1836359051200768860 is duck, gapful, even
+1              	1836359051200768861 is duck, odd
+2              	1836359051200768862 is duck, even
+1              	1836359051200768863 is duck, odd
+@              	1836359051200768864 is buzz, duck, gapful, even
+1              	1836359051200768865 is duck, odd
+2              	1836359051200768866 is duck, even
+7              	1836359051200768867 is buzz, duck, odd
+2              	1836359051200768868 is duck, even
+1              	1836359051200768869 is duck, odd
+:              	1836359051200768870 is duck, gapful, even
+7              	1836359051200768871 is buzz, duck, odd
+:              	1836359051200768872 is duck, gapful, even
+1              	1836359051200768873 is duck, odd
+2              	1836359051200768874 is duck, even
+9              	1836359051200768875 is duck, gapful, odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 20[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+)Enter a request: > 8236175732767488481 9
+
++              	8236175732767488481 is odd
+,              	8236175732767488482 is even
++              	8236175732767488483 is odd
+,              	8236175732767488484 is even
+1              	8236175732767488485 is buzz, odd
+,              	8236175732767488486 is even
+1              	8236175732767488487 is buzz, odd
+,              	8236175732767488488 is even
++              	8236175732767488489 is odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 21[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+)Enter a request: > 8756760435268759328 3
+
+2              	8756760435268759328 is duck, even
+1              	8756760435268759329 is duck, odd
+2              	8756760435268759330 is duck, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 22[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+)Enter a request: > 573291847873212742 18
+
++              	573291847873212742 is even
+*              	573291847873212743 is odd
++              	573291847873212744 is even
+*              	573291847873212745 is odd
++              	573291847873212746 is even
+0              	573291847873212747 is buzz, odd
+1              	573291847873212748 is buzz, even
+2              	573291847873212749 is gapful, odd
+9              	573291847873212750 is duck, gapful, even
+*              	573291847873212751 is odd
++              	573291847873212752 is even
+*              	573291847873212753 is odd
++              	573291847873212754 is even
+0              	573291847873212755 is buzz, odd
++              	573291847873212756 is even
+0              	573291847873212757 is buzz, odd
++              	573291847873212758 is even
+*              	573291847873212759 is odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 23[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+*Enter a request: > 3264089452667270864 11
+
+8              	3264089452667270864 is buzz, duck, even
+1              	3264089452667270865 is duck, odd
+2              	3264089452667270866 is duck, even
+7              	3264089452667270867 is buzz, duck, odd
+2              	3264089452667270868 is duck, even
+1              	3264089452667270869 is duck, odd
+2              	3264089452667270870 is duck, even
+7              	3264089452667270871 is buzz, duck, odd
+2              	3264089452667270872 is duck, even
+1              	3264089452667270873 is duck, odd
+2              	3264089452667270874 is duck, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 24[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+*Enter a request: > 5206759737471748813 13
+
+7              	5206759737471748813 is buzz, duck, odd
+2              	5206759737471748814 is duck, even
+1              	5206759737471748815 is duck, odd
+2              	5206759737471748816 is duck, even
+7              	5206759737471748817 is buzz, duck, odd
+2              	5206759737471748818 is duck, even
+1              	5206759737471748819 is duck, odd
+8              	5206759737471748820 is buzz, duck, even
+1              	5206759737471748821 is duck, odd
+2              	5206759737471748822 is duck, even
+1              	5206759737471748823 is duck, odd
+2              	5206759737471748824 is duck, even
+1              	5206759737471748825 is duck, odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 25[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+)Enter a request: > 7430001218893456578 6
+
+2              	7430001218893456578 is duck, even
+9              	7430001218893456579 is duck, gapful, odd
+2              	7430001218893456580 is duck, even
+7              	7430001218893456581 is buzz, duck, odd
+2              	7430001218893456582 is duck, even
+1              	7430001218893456583 is duck, odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 26[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+*Enter a request: > 5266612965963746489 16
+
++              	5266612965963746489 is odd
+2              	5266612965963746490 is duck, even
++              	5266612965963746491 is odd
+,              	5266612965963746492 is even
++              	5266612965963746493 is odd
+,              	5266612965963746494 is even
+1              	5266612965963746495 is buzz, odd
+,              	5266612965963746496 is even
+1              	5266612965963746497 is buzz, odd
+,              	5266612965963746498 is even
++              	5266612965963746499 is odd
+:              	5266612965963746500 is duck, gapful, even
+1              	5266612965963746501 is duck, odd
+8              	5266612965963746502 is buzz, duck, even
+1              	5266612965963746503 is duck, odd
+2              	5266612965963746504 is duck, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 27[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+)Enter a request: > 224555174535931270 16
+
+1              	224555174535931270 is duck, even
+*              	224555174535931271 is odd
+3              	224555174535931272 is gapful, even
+*              	224555174535931273 is odd
+1              	224555174535931274 is buzz, even
+2              	224555174535931275 is gapful, odd
++              	224555174535931276 is even
+0              	224555174535931277 is buzz, odd
++              	224555174535931278 is even
+*              	224555174535931279 is odd
+9              	224555174535931280 is duck, gapful, even
+8              	224555174535931281 is buzz, gapful, odd
++              	224555174535931282 is even
+*              	224555174535931283 is odd
++              	224555174535931284 is even
+*              	224555174535931285 is odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 28[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+)Enter a request: > 7486911458858156739 4
+
++              	7486911458858156739 is odd
+2              	7486911458858156740 is duck, even
++              	7486911458858156741 is odd
+,              	7486911458858156742 is even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 29[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 1 10 May
+
+The property [MAY] is wrong.
+HAvailable properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 30[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 40 2 bay
+
+The property [BAY] is wrong.
+HAvailable properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 31[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 37 4 8
+
+The property [8] is wrong.
+HAvailable properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 32[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 67 2 day
+
+The property [DAY] is wrong.
+HAvailable properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 33[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 2 54 Prime
+
+The property [PRIME] is wrong.
+HAvailable properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 34[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 6 8 ...
+
+The property [...] is wrong.
+HAvailable properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 35[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 5 9 none
+
+The property [NONE] is wrong.
+HAvailable properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 36[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 1 10 BUZZ
+
+1              	7 is buzz, palindromic, spy, odd
+!              	14 is buzz, even
+               	17 is buzz, odd
+               	21 is buzz, odd
+               	27 is buzz, odd
+!              	28 is buzz, even
+               	35 is buzz, odd
+               	37 is buzz, odd
+!              	42 is buzz, even
+               	47 is buzz, odd
+
+Enter a request: > 1 10 DUCK
+
+!              	10 is duck, even
+!              	20 is duck, even
+!              	30 is duck, even
+!              	40 is duck, even
+!              	50 is duck, even
+!              	60 is duck, even
+'              	70 is buzz, duck, even
+!              	80 is duck, even
+!              	90 is duck, even
+*              	100 is duck, gapful, even
+
+$Enter a request: > 1 10 PALINDROMIC
+
++              	1 is palindromic, spy, odd
+,              	2 is palindromic, spy, even
++              	3 is palindromic, spy, odd
+,              	4 is palindromic, spy, even
++              	5 is palindromic, spy, odd
+,              	6 is palindromic, spy, even
+1              	7 is buzz, palindromic, spy, odd
+,              	8 is palindromic, spy, even
++              	9 is palindromic, spy, odd
+'              	11 is palindromic, odd
+
+Enter a request: > 1 10 GAPFUL
+
+*              	100 is duck, gapful, even
+/              	105 is buzz, duck, gapful, odd
+*              	108 is duck, gapful, even
+*              	110 is duck, gapful, even
+*              	120 is duck, gapful, even
+0              	121 is palindromic, gapful, odd
+*              	130 is duck, gapful, even
+)              	132 is gapful, spy, even
+#              	135 is gapful, odd
+0              	140 is buzz, duck, gapful, even
+
+Enter a request: > 1 10 SPY
+
++              	1 is palindromic, spy, odd
+,              	2 is palindromic, spy, even
++              	3 is palindromic, spy, odd
+,              	4 is palindromic, spy, even
++              	5 is palindromic, spy, odd
+,              	6 is palindromic, spy, even
+1              	7 is buzz, palindromic, spy, odd
+,              	8 is palindromic, spy, even
++              	9 is palindromic, spy, odd
+-              	22 is palindromic, spy, even
+
+Enter a request: > 1 10 EVEN
+
+,              	2 is palindromic, spy, even
+,              	4 is palindromic, spy, even
+,              	6 is palindromic, spy, even
+,              	8 is palindromic, spy, even
+!              	10 is duck, even
+              	12 is even
+!              	14 is buzz, even
+              	16 is even
+              	18 is even
+!              	20 is duck, even
+
+Enter a request: > 1 10 ODD
+
++              	1 is palindromic, spy, odd
++              	3 is palindromic, spy, odd
++              	5 is palindromic, spy, odd
+1              	7 is buzz, palindromic, spy, odd
++              	9 is palindromic, spy, odd
+'              	11 is palindromic, odd
+              	13 is odd
+              	15 is odd
+               	17 is buzz, odd
+              	19 is odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 37[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+"Enter a request: > 10898 2 GAPFUL
+
+,              	10900 is duck, gapful, even
+8              	10901 is duck, palindromic, gapful, odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 38[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+!Enter a request: > 24967 12 EVEN
+
+              	24968 is even
+$              	24970 is duck, even
+              	24972 is even
+              	24974 is even
+$              	24976 is buzz, even
+              	24978 is even
+,              	24980 is duck, gapful, even
+              	24982 is even
+&              	24984 is gapful, even
+&              	24986 is gapful, even
+              	24988 is even
+*              	24990 is buzz, duck, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 39[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+"Enter a request: > 6655 20 GAPFUL
+
++              	6660 is duck, gapful, even
+2              	6666 is palindromic, gapful, even
+$              	6695 is gapful, odd
+1              	6720 is buzz, duck, gapful, even
+*              	6767 is buzz, gapful, odd
+$              	6771 is gapful, odd
++              	6780 is duck, gapful, even
+%              	6784 is gapful, even
+*              	6825 is buzz, gapful, odd
++              	6840 is duck, gapful, even
+%              	6868 is gapful, even
+%              	6882 is gapful, even
++              	6900 is duck, gapful, even
+$              	6955 is gapful, odd
++              	6960 is duck, gapful, even
+$              	6969 is gapful, odd
+*              	6993 is buzz, gapful, odd
+2              	6996 is palindromic, gapful, even
+1              	7000 is buzz, duck, gapful, even
+=              	7007 is buzz, duck, palindromic, gapful, odd
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 40[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+ Enter a request: > 26855 10 SPY
+
+/              	31113 is palindromic, spy, odd
+"              	31131 is spy, odd
+(              	31311 is buzz, spy, odd
+"              	33111 is spy, odd
+#              	51112 is spy, even
+(              	51121 is buzz, spy, odd
+"              	51211 is spy, odd
+"              	52111 is spy, odd
+$              	111126 is spy, even
+$              	111162 is spy, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 41[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+!Enter a request: > 22342 17 DUCK
+
+$              	22350 is duck, even
+,              	22360 is duck, gapful, even
+$              	22370 is duck, even
+,              	22380 is duck, gapful, even
+$              	22390 is duck, even
+2              	22400 is buzz, duck, gapful, even
+#              	22401 is duck, odd
+$              	22402 is duck, even
+#              	22403 is duck, odd
+$              	22404 is duck, even
+#              	22405 is duck, odd
+$              	22406 is duck, even
+)              	22407 is buzz, duck, odd
+$              	22408 is duck, even
+#              	22409 is duck, odd
+$              	22410 is duck, even
+,              	22420 is duck, gapful, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 42[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 32486 6 SPY
+
+"              	33111 is spy, odd
+#              	51112 is spy, even
+(              	51121 is buzz, spy, odd
+"              	51211 is spy, odd
+"              	52111 is spy, odd
+$              	111126 is spy, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 43[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+ Enter a request: > 27660 1 BUZZ
+
+$              	27664 is buzz, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 44[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+Enter a request: > 3818 9 DUCK
+
+#              	3820 is duck, even
+#              	3830 is duck, even
++              	3840 is duck, gapful, even
+)              	3850 is buzz, duck, even
+#              	3860 is duck, even
++              	3870 is duck, gapful, even
+#              	3880 is duck, even
+#              	3890 is duck, even
++              	3900 is duck, gapful, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 45[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+ Enter a request: > 2356 13 DUCK
+
++              	2360 is duck, gapful, even
+#              	2370 is duck, even
+1              	2380 is buzz, duck, gapful, even
+#              	2390 is duck, even
++              	2400 is duck, gapful, even
+(              	2401 is buzz, duck, odd
+#              	2402 is duck, even
+"              	2403 is duck, odd
+#              	2404 is duck, even
+"              	2405 is duck, odd
+#              	2406 is duck, even
+(              	2407 is buzz, duck, odd
+1              	2408 is buzz, duck, gapful, even
+
+Enter a request: > 0
+
+
+Goodbye!
+[1;31m
+Start test 46[0m
+Welcome to Amazing Numbers!
+
+Supported requests:
+1- enter a natural number to know its properties;
+B- enter two natural numbers to obtain the properties of the list:
+6  * the first parameter represents a starting number;
+Q  * the second parameters show how many consecutive numbers are to be processed;
+4- two natural numbers and a property to search for;
+*- separate the parameters with one space;
+- enter 0 to exit.
+
+!Enter a request: > 10270 13 BUZZ
+
+*              	10276 is buzz, duck, even
+)              	10277 is buzz, duck, odd
+1              	10283 is buzz, duck, gapful, odd
+)              	10287 is buzz, duck, odd
+2              	10290 is buzz, duck, gapful, even
+)              	10297 is buzz, duck, odd
+2              	10304 is buzz, duck, gapful, even
+)              	10307 is buzz, duck, odd
+)              	10311 is buzz, duck, odd
+)              	10317 is buzz, duck, odd
+*              	10318 is buzz, duck, even
+)              	10325 is buzz, duck, odd
+)              	10327 is buzz, duck, odd
+
+Enter a request: > 0
+
+
+Goodbye!
