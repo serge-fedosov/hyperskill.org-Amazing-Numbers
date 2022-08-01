@@ -1,9 +1,12 @@
 package numbers;
 
-import java.util.Scanner;
+import java.util.*;
 
 
 class AmazingNumbers {
+
+    HashSet<String> properParams = new HashSet<>(Set.of("buzz", "duck", "palindromic", "gapful", "spy", "square",
+            "sunny", "jumping", "even", "odd"));
 
     private boolean isDuck(long n) {
         while (n != 0) {
@@ -72,6 +75,36 @@ class AmazingNumbers {
         return sum == mult;
     }
 
+    private boolean isSunny(long n) {
+        return isPerfectSquare(n + 1);
+    }
+
+    private boolean isPerfectSquare(long n) {
+        double d = Math.sqrt(n);
+        return d == (double) (int) d;
+    }
+
+    private boolean isJumping(long n) {
+        if (n < 10) {
+            return true;
+        }
+
+        long prev = n % 10;
+        n /= 10;
+        while (n != 0) {
+            long val = n % 10;
+            n /= 10;
+
+            if (Math.abs(prev - val) != 1) {
+                return false;
+            }
+
+            prev = val;
+        }
+
+        return true;
+    }
+
     public void greeting() {
         System.out.println("Welcome to Amazing Numbers!\n");
     }
@@ -81,18 +114,15 @@ class AmazingNumbers {
                 "- enter a natural number to know its properties;\n" +
                 "- enter two natural numbers to obtain the properties of the list:\n" +
                 "  * the first parameter represents a starting number;\n" +
-                "  * the second parameters show how many consecutive numbers are to be processed;\n" +
-                "- two natural numbers and a property to search for;\n" +
+                "  * the second parameter shows how many consecutive numbers are to be printed;\n" +
+                "- two natural numbers and properties to search for;\n" +
                 "- separate the parameters with one space;\n" +
                 "- enter 0 to exit.\n");
     }
 
-    public void properties(long n) {
+    public void properties(Long n) {
 
-        if (n < 1) {
-            System.out.println("The first parameter should be a natural number or zero.");
-            return;
-        }
+        if (!is1ParameterCorrect(n)) return;
 
         // even/odd
         boolean even = isEven(n);
@@ -113,28 +143,33 @@ class AmazingNumbers {
         // spy
         boolean spy = isSpy(n);
 
+        // square
+        boolean square = isPerfectSquare(n);
+
+        // sunny
+        boolean sunny = isSunny(n);
+
+        // jumping
+        boolean jumping = isJumping(n);
+
         System.out.println("Properties of " + n +
                 "\n        buzz: " + buzz +
                 "\n        duck: " + duck +
                 "\n palindromic: " + palindromic +
                 "\n      gapful: " + gapful +
                 "\n         spy: " + spy +
+                "\n      square: " + square +
+                "\n       sunny: " + sunny +
+                "\n     jumping: " + jumping +
                 "\n        even: " + even +
                 "\n         odd: " + odd + "\n");
 
     }
 
-    public void propertiesList(long n, Long k) {
+    public void propertiesList(Long n, Long k) {
 
-        if (n < 1) {
-            System.out.println("The first parameter should be a natural number or zero.");
-            return;
-        }
-
-        if (k < 1) {
-            System.out.println("The second parameter should be a natural number.\n");
-            return;
-        }
+        if (!is1ParameterCorrect(n)) return;
+        if (!is2ParameterCorrect(k)) return;
 
         for (long i = n; i < n + k; i++) {
 
@@ -145,6 +180,9 @@ class AmazingNumbers {
             if (isPalindromic(i)) str.append("palindromic, ");
             if (isGapful(i)) str.append("gapful, ");
             if (isSpy(i)) str.append("spy, ");
+            if (isPerfectSquare(i)) str.append("square, ");
+            if (isSunny(i)) str.append("sunny, ");
+            if (isJumping(i)) str.append("jumping, ");
             if (isEven(i)) str.append("even, ");
             if (isOdd(i)) str.append("odd, ");
 
@@ -154,62 +192,143 @@ class AmazingNumbers {
         System.out.println();
     }
 
-    public void propertiesListCount(long n, Long k, String v) {
+    public boolean getProperty(Long n, String v) {
+        return switch (v) {
+            case "buzz" -> isBuzz(n);
+            case "duck" -> isDuck(n);
+            case "palindromic" -> isPalindromic(n);
+            case "gapful" -> isGapful(n);
+            case "spy" -> isSpy(n);
+            case "square" -> isPerfectSquare(n);
+            case "sunny" -> isSunny(n);
+            case "jumping" -> isJumping(n);
+            case "even" -> isEven(n);
+            case "odd" -> isOdd(n);
+            default -> false;
+        };
+    }
 
-        if (n < 1) {
-            System.out.println("The first parameter should be a natural number or zero.");
-            return;
-        }
+    public void propertiesListCount(Long n, Long k, List<String> params) {
 
-        if (k < 1) {
-            System.out.println("The second parameter should be a natural number.\n");
-            return;
-        }
-
-        if (!(v.equals("buzz") || v.equals("duck") || v.equals("palindromic") || v.equals("gapful") ||
-                v.equals("spy") || v.equals("even") || v.equals("odd"))) {
-
-            System.out.println("The property [" + v.toUpperCase() + "] is wrong.\n" +
-                    "Available properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]\n");
-            return;
-        }
+        if (!is1ParameterCorrect(n)) return;
+        if (!is2ParameterCorrect(k)) return;
+        if (!is3PlusParametersCorrect(params)) return;
 
         int count = 0;
         while (count < k) {
 
-            boolean property = switch (v) {
-                case "buzz" -> isBuzz(n);
-                case "duck" -> isDuck(n);
-                case "palindromic" -> isPalindromic(n);
-                case "gapful" -> isGapful(n);
-                case "spy" -> isSpy(n);
-                case "even" -> isEven(n);
-                case "odd" -> isOdd(n);
-                default -> false;
-            };
-
-            if (!property) {
-                n++;
-                continue;
+            boolean propertiesCorrect = true;
+            for (var param : params) {
+                propertiesCorrect = propertiesCorrect && getProperty(n, param);
             }
 
-            StringBuilder str = new StringBuilder();
+            if (propertiesCorrect) {
+                count++;
 
-            if (isBuzz(n)) str.append("buzz, ");
-            if (isDuck(n)) str.append("duck, ");
-            if (isPalindromic(n)) str.append("palindromic, ");
-            if (isGapful(n)) str.append("gapful, ");
-            if (isSpy(n)) str.append("spy, ");
-            if (isEven(n)) str.append("even, ");
-            if (isOdd(n)) str.append("odd, ");
+                StringBuilder str = new StringBuilder();
 
-            System.out.println("              \t" + n + " is " + str.substring(0, str.lastIndexOf(",")).toString());
+                if (isBuzz(n)) str.append("buzz, ");
+                if (isDuck(n)) str.append("duck, ");
+                if (isPalindromic(n)) str.append("palindromic, ");
+                if (isGapful(n)) str.append("gapful, ");
+                if (isSpy(n)) str.append("spy, ");
+                if (isPerfectSquare(n)) str.append("square, ");
+                if (isSunny(n)) str.append("sunny, ");
+                if (isJumping(n)) str.append("jumping, ");
+                if (isEven(n)) str.append("even, ");
+                if (isOdd(n)) str.append("odd, ");
 
-            count++;
+                System.out.println("              \t" + n + " is " + str.substring(0, str.lastIndexOf(",")));
+
+            }
+
             n++;
         }
 
         System.out.println();
+    }
+
+
+    public boolean is1ParameterCorrect(Long n) {
+        if (n == null || n < 0) {
+            System.out.println("The first parameter should be a natural number or zero.\n");
+            return false;
+        }
+
+        return true;
+    }
+
+    public boolean is2ParameterCorrect(Long k) {
+        if (k == null || k < 1) {
+            System.out.println("The second parameter should be a natural number.\n");
+            return true;
+        }
+
+        return true;
+    }
+
+    public boolean isParameterCorrect(String v) {
+        return properParams.contains(v);
+    }
+
+    public void parametersError(List<String> badParams) {
+        StringBuilder str = new StringBuilder();
+        for (var badParam: badParams) {
+            str.append(badParam.toUpperCase());
+            str.append(", ");
+        }
+
+        String value = str.substring(0, str.lastIndexOf(","));
+
+        if (badParams.size() == 1) {
+            System.out.printf("The property [%s] is wrong.\n\n", value);
+        } else {
+            System.out.printf("The properties [%s] are wrong.\n\n", value);
+        }
+
+        StringBuilder str2 = new StringBuilder();
+        for (var param : properParams) {
+            str2.append(param.toUpperCase());
+            str2.append(", ");
+        }
+
+        String value2 = str2.substring(0, str2.lastIndexOf(","));
+        System.out.printf("Available properties: [%s]\n\n", value2);
+
+    }
+
+    public boolean is3PlusParametersCorrect(List<String> params) {
+
+        List<String> badParams = new ArrayList<>();
+        for (var param : params) {
+            param = param.toLowerCase();
+
+            if (!isParameterCorrect(param)) {
+                badParams.add(param);
+            }
+        }
+
+        if (badParams.size() != 0) {
+            parametersError(badParams);
+            return false;
+        }
+
+        StringBuilder str = new StringBuilder();
+
+        if (params.contains("even") && params.contains("odd")) str.append("even, odd, ");
+        if (params.contains("duck") && params.contains("spy")) str.append("duck, spy, ");
+        if (params.contains("sunny") && params.contains("square")) str.append("sunny, square, ");
+
+        if (str.length() != 0) {
+
+            String value = str.substring(0, str.lastIndexOf(",")).toUpperCase();
+            System.out.println("The request contains mutually exclusive properties: [" + value + "]\n" +
+                    "There are no numbers with these properties.\n");
+
+            return false;
+        }
+
+        return true;
     }
 
     public void menu() {
@@ -217,62 +336,48 @@ class AmazingNumbers {
         System.out.print("Enter a request: ");
 
         Scanner scanner = new Scanner(System.in);
-        String parameters = scanner.nextLine().trim();
+        String parameters = scanner.nextLine().trim().toLowerCase();
         System.out.println();
 
         while (true) {
 
             Long n1 = null;
             Long n2 = null;
-            String n3 = null;
+            String[] params = parameters.split("\\s");
 
-            int delimiterIndex = parameters.indexOf(" ");
-            if (delimiterIndex == -1) {
+            if (params.length == 1) {
                 try {
-                    n1 = Long.parseLong(parameters);
+                    n1 = Long.parseLong(params[0]);
                 } catch (NumberFormatException e) {
                 }
-            } else {
-                int delimiterIndex2 = parameters.lastIndexOf(" ");
-                if (delimiterIndex == delimiterIndex2) {
-                    try {
-                        n1 = Long.parseLong(parameters.substring(0, delimiterIndex));
-                        n2 = Long.parseLong(parameters.substring(delimiterIndex + 1));
-                    } catch (NumberFormatException e) {
-                    }
-                } else {
-                    try {
-                        n1 = Long.parseLong(parameters.substring(0, delimiterIndex));
-                        n2 = Long.parseLong(parameters.substring(delimiterIndex + 1, delimiterIndex2));
-                    } catch (NumberFormatException e) {
-                    }
-                    n3 = parameters.substring(delimiterIndex2 + 1).toLowerCase();
+
+                if (n1 != null && n1 == 0) {
+                    break;
+                }
+            } else if (params.length >= 2) {
+                try {
+                    n1 = Long.parseLong(params[0]);
+                    n2 = Long.parseLong(params[1]);
+                } catch (NumberFormatException e) {
                 }
             }
 
             if (parameters.isBlank()) {
                 instructions();
-            } else if (n1 == null) {
-                System.out.println("The first parameter should be a natural number or zero.\n");
-            } else if (n1 == 0) {
-                break;
-            } else if (n2 == null) {
+            } else if (params.length == 1) {
                 properties(n1);
-            } else if (n2 < 1) {
-                System.out.println("The second parameter should be a natural number.\n");
-            } else if (n3 == null) {
+            } else if (params.length == 2) {
                 propertiesList(n1, n2);
-            } else if (!(n3.equals("buzz") || n3.equals("duck") || n3.equals("palindromic") || n3.equals("gapful") ||
-                    n3.equals("spy") || n3.equals("even") || n3.equals("odd"))) {
-
-                System.out.println("The property [" + n3.toUpperCase() + "] is wrong.\n" +
-                        "Available properties: [BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, EVEN, ODD]\n");
-            } else {
-                propertiesListCount(n1, n2, n3);
+            } else if (params.length >= 3) {
+                List<String> paramsList = new ArrayList<>();
+                for (int i = 2; i < params.length; i++) {
+                    paramsList.add(params[i]);
+                }
+                propertiesListCount(n1, n2, paramsList);
             }
 
             System.out.print("Enter a request: ");
-            parameters = scanner.nextLine().trim();
+            parameters = scanner.nextLine().trim().toLowerCase();
             System.out.println();
         }
 
