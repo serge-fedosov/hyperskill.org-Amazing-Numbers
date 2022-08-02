@@ -6,7 +6,7 @@ import java.util.*;
 class AmazingNumbers {
 
     HashSet<String> properParams = new HashSet<>(Set.of("buzz", "duck", "palindromic", "gapful", "spy", "square",
-            "sunny", "jumping", "even", "odd"));
+            "sunny", "jumping", "even", "odd", "happy", "sad"));
 
     private boolean isDuck(long n) {
         while (n != 0) {
@@ -105,6 +105,24 @@ class AmazingNumbers {
         return true;
     }
 
+    private boolean isHappy(long n) {
+        do {
+            int sum = 0;
+            while (n != 0) {
+                long val = n % 10;
+                sum += val * val;
+                n /= 10;
+            }
+            n = sum;
+        } while (n > 9);
+
+        return n == 1;
+    }
+
+    private boolean isSad(long n) {
+        return !isHappy(n);
+    }
+
     public void greeting() {
         System.out.println("Welcome to Amazing Numbers!\n");
     }
@@ -116,6 +134,7 @@ class AmazingNumbers {
                 "  * the first parameter represents a starting number;\n" +
                 "  * the second parameter shows how many consecutive numbers are to be printed;\n" +
                 "- two natural numbers and properties to search for;\n" +
+                "- a property preceded by minus must not be present in numbers;\n" +
                 "- separate the parameters with one space;\n" +
                 "- enter 0 to exit.\n");
     }
@@ -152,6 +171,10 @@ class AmazingNumbers {
         // jumping
         boolean jumping = isJumping(n);
 
+        // happy/sad
+        boolean happy = isHappy(n);
+        boolean sad = isSad(n);
+
         System.out.println("Properties of " + n +
                 "\n        buzz: " + buzz +
                 "\n        duck: " + duck +
@@ -161,6 +184,8 @@ class AmazingNumbers {
                 "\n      square: " + square +
                 "\n       sunny: " + sunny +
                 "\n     jumping: " + jumping +
+                "\n       happy: " + happy +
+                "\n         sad: " + sad +
                 "\n        even: " + even +
                 "\n         odd: " + odd + "\n");
 
@@ -183,6 +208,8 @@ class AmazingNumbers {
             if (isPerfectSquare(i)) str.append("square, ");
             if (isSunny(i)) str.append("sunny, ");
             if (isJumping(i)) str.append("jumping, ");
+            if (isHappy(i)) str.append("happy, ");
+            if (isSad(i)) str.append("sad, ");
             if (isEven(i)) str.append("even, ");
             if (isOdd(i)) str.append("odd, ");
 
@@ -193,7 +220,9 @@ class AmazingNumbers {
     }
 
     public boolean getProperty(Long n, String v) {
-        return switch (v) {
+        String w = v.charAt(0) == '-' ? v.substring(1) : String.valueOf(v);
+
+        boolean result = switch (w) {
             case "buzz" -> isBuzz(n);
             case "duck" -> isDuck(n);
             case "palindromic" -> isPalindromic(n);
@@ -202,10 +231,18 @@ class AmazingNumbers {
             case "square" -> isPerfectSquare(n);
             case "sunny" -> isSunny(n);
             case "jumping" -> isJumping(n);
+            case "happy" -> isHappy(n);
+            case "sad" -> isSad(n);
             case "even" -> isEven(n);
             case "odd" -> isOdd(n);
             default -> false;
         };
+
+        if (v.charAt(0) == '-') {
+            result = !result;
+        }
+
+        return result;
     }
 
     public void propertiesListCount(Long n, Long k, List<String> params) {
@@ -235,11 +272,12 @@ class AmazingNumbers {
                 if (isPerfectSquare(n)) str.append("square, ");
                 if (isSunny(n)) str.append("sunny, ");
                 if (isJumping(n)) str.append("jumping, ");
+                if (isHappy(n)) str.append("happy, ");
+                if (isSad(n)) str.append("sad, ");
                 if (isEven(n)) str.append("even, ");
                 if (isOdd(n)) str.append("odd, ");
 
                 System.out.println("              \t" + n + " is " + str.substring(0, str.lastIndexOf(",")));
-
             }
 
             n++;
@@ -247,7 +285,6 @@ class AmazingNumbers {
 
         System.out.println();
     }
-
 
     public boolean is1ParameterCorrect(Long n) {
         if (n == null || n < 0) {
@@ -268,7 +305,7 @@ class AmazingNumbers {
     }
 
     public boolean isParameterCorrect(String v) {
-        return properParams.contains(v);
+        return properParams.contains(v) || v.charAt(0) == '-' && properParams.contains(v.substring(1));
     }
 
     public void parametersError(List<String> badParams) {
@@ -315,9 +352,16 @@ class AmazingNumbers {
 
         StringBuilder str = new StringBuilder();
 
+        for (var element: properParams) {
+            if (params.contains(element) && params.contains("-" + element)) str.append(element + ", -" + element + ", ");
+        }
+
         if (params.contains("even") && params.contains("odd")) str.append("even, odd, ");
+        if (params.contains("-even") && params.contains("-odd")) str.append("-even, -odd, ");
         if (params.contains("duck") && params.contains("spy")) str.append("duck, spy, ");
         if (params.contains("sunny") && params.contains("square")) str.append("sunny, square, ");
+        if (params.contains("happy") && params.contains("sad")) str.append("happy, sad, ");
+        if (params.contains("-happy") && params.contains("-sad")) str.append("-happy, -sad, ");
 
         if (str.length() != 0) {
 
